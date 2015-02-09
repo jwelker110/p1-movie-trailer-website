@@ -1,0 +1,46 @@
+{
+  "movies": [
+    {
+      "title": "Toy Story",
+      "duration": "",
+      "description": "A story of a boy and his toys that come to life",
+      "poster_image": "http://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
+      "youtube_trailer": "https://www.youtube.com/watch?v=vwyZH85NQC4"
+    },
+    {
+      "title": "Avatar",
+      "duration": "",
+      "description": "A marine on an alien planet",
+      "poster_image": "http://upload.wikimedia.org/wikipedia/id/b/b0/Avatar-Teaser-Poster.jpg",
+      "youtube_trailer": "http://www.youtube.com/watch?v=cRdxXPV9GNQ"
+    },
+    {
+      "title": "School of Rock",
+      "duration": "",
+      "description": "Using rock music to learn",
+      "poster_image": "http://upload.wikimedia.org/wikipedia/en/1/11/School_of_Rock_Poster.jpg",
+      "youtube_trailer": "https://www.youtube.com/watch?v=3PsUJFEBC74"
+    },
+    {
+      "title": "Ratatouille",
+      "duration": "",
+      "description": "A rat is a chef in Paris",
+      "poster_image": "http://upload.wikimedia.org/wikipedia/en/5/50/RatatouillePoster.jpg",
+      "youtube_trailer": "https://www.youtube.com/watch?v=FpLaO5ArBpg"
+    },
+    {
+      "title": "Midnight in Paris",
+      "duration": "",
+      "description": "Going back in time to meet authors",
+      "poster_image": "http://upload.wikimedia.org/wikipedia/en/9/9f/Midnight_in_Paris_Poster.jpg",
+      "youtube_trailer": "https://www.youtube.com/watch?v=-NoGpkSTK8k"
+    },
+    {
+      "title": "Hunger Games",
+      "duration": "",
+      "description": "A really real reality show",
+      "poster_image": "http://upload.wikimedia.org/wikipedia/en/4/42/HungerGamesPoster.jpg",
+      "youtube_trailer": "https://www.youtube.com/watch?v=nvU1MnB_dAc"
+    }
+    ]
+}
