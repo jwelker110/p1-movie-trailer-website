@@ -1,46 +1,64 @@
 {
   "movies": [
     {
-      "title": "Toy Story",
+      "title": "Bad Boys",
       "duration": "",
-      "description": "A story of a boy and his toys that come to life",
-      "poster_image": "http://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
-      "youtube_trailer": "https://www.youtube.com/watch?v=vwyZH85NQC4"
+      "description": "Two hip detectives protect a murder witness while investigating a case of stolen heroin.",
+      "poster_image": "http://ia.media-imdb.com/images/M/MV5BMTY4NDk1NTU5NF5BMl5BanBnXkFtZTcwMjE2NDU2MQ@@._V1_SX640_SY720_.jpg",
+      "youtube_trailer": "https://www.youtube.com/watch?v=6GaPkMqAS44",
+      "rating": 4,
+      "duration": 132,
+      "genre": "Action"
     },
     {
-      "title": "Avatar",
+      "title": "Bad Boys II",
       "duration": "",
-      "description": "A marine on an alien planet",
-      "poster_image": "http://upload.wikimedia.org/wikipedia/id/b/b0/Avatar-Teaser-Poster.jpg",
-      "youtube_trailer": "http://www.youtube.com/watch?v=cRdxXPV9GNQ"
+      "description": "Two loose-cannon narcotics cops investigate the flow of Ecstacy into Florida.",
+      "poster_image": "http://d12vb6dvkz909q.cloudfront.net/uploads/galleries/39717/bad-boys-ii-poster-artwork-martin-lawrence-will-smith-gabrielle-union.jpg",
+      "youtube_trailer": "https://www.youtube.com/watch?v=ahJcAG8oLiw",
+      "rating": 4,
+      "duration": 132,
+      "genre": "Action"
     },
     {
-      "title": "School of Rock",
+      "title": "We Were Soldiers",
       "duration": "",
-      "description": "Using rock music to learn",
-      "poster_image": "http://upload.wikimedia.org/wikipedia/en/1/11/School_of_Rock_Poster.jpg",
-      "youtube_trailer": "https://www.youtube.com/watch?v=3PsUJFEBC74"
+      "description": "The story of the first major battle of the American phase of the Vietnam War and the soldiers on both sides that fought it.",
+      "poster_image": "http://www.barnabaspiper.com/wp-content/uploads/2014/05/we-were-soldiers-movie-poster-3746.jpg",
+      "youtube_trailer": "https://www.youtube.com/watch?v=WtdQcvQKllk",
+      "rating": 4,
+      "duration": 132,
+      "genre": "Action"
     },
     {
       "title": "Ratatouille",
       "duration": "",
       "description": "A rat is a chef in Paris",
       "poster_image": "http://upload.wikimedia.org/wikipedia/en/5/50/RatatouillePoster.jpg",
-      "youtube_trailer": "https://www.youtube.com/watch?v=FpLaO5ArBpg"
+      "youtube_trailer": "https://www.youtube.com/watch?v=FpLaO5ArBpg",
+      "rating": 4,
+      "duration": 132,
+      "genre": "Action"
     },
     {
       "title": "Midnight in Paris",
       "duration": "",
       "description": "Going back in time to meet authors",
       "poster_image": "http://upload.wikimedia.org/wikipedia/en/9/9f/Midnight_in_Paris_Poster.jpg",
-      "youtube_trailer": "https://www.youtube.com/watch?v=-NoGpkSTK8k"
+      "youtube_trailer": "https://www.youtube.com/watch?v=-NoGpkSTK8k",
+      "rating": 4,
+      "duration": 132,
+      "genre": "Action"
     },
     {
       "title": "Hunger Games",
       "duration": "",
       "description": "A really real reality show",
       "poster_image": "http://upload.wikimedia.org/wikipedia/en/4/42/HungerGamesPoster.jpg",
-      "youtube_trailer": "https://www.youtube.com/watch?v=nvU1MnB_dAc"
+      "youtube_trailer": "https://www.youtube.com/watch?v=nvU1MnB_dAc",
+      "rating": 4,
+      "duration": 132,
+      "genre": "Action"
     }
     ]
 }
