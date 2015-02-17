@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Movie Hub</title>
+
+    <!-- Bootstrap 3 -->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="lib/jquery.raty.css">
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <script src="lib/jquery.raty.js"></script>
+    <script src="js/script.js"></script>
+</head>
+
+
+  <body>
+    <!-- Trailer Video Modal -->
+    <div class="modal" id="trailer">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <a href="#" class="hanging-close" data-dismiss="modal" aria-hidden="true">
+            <img src="https://lh5.ggpht.com/v4-628SilF0HtHuHdu5EzxD7WRqOrrTIDi_MhEG6_qkNtUK5Wg7KPkofp_VJoF7RS2LhxwEFCO1ICHZlc-o_=s0#w=24&h=24"/>
+          </a>
+          <div class="scale-media" id="trailer-video-container">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Main Page Content -->
+    <div class="container">
+      <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Movies At The Hub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+        <div class="row">
+      
+<div class="row col-sm-6 col-md-4 movie-tile text-center">
+    <h2>Bad Boys</h2>
+    <figure>
+        <img class="movie-poster" src="http://ia.media-imdb.com/images/M/MV5BMTY4NDk1NTU5NF5BMl5BanBnXkFtZTcwMjE2NDU2MQ@@._V1_SX640_SY720_.jpg" width="220" height="342">
+    </figure>
+    <div class="rating"></div>
+    <p class="description">    Two hip detectives protect a murder witness while investigating a case of stolen heroin.</p>
+    <div class="rating-trailer">
+    <a href="#" class="btn btn-primary btn-trailer" data-trailer-youtube-id="6GaPkMqAS44" data-toggle="modal" data-target="#trailer">Trailer</a>
+    <div class="raty" value="4"></div>
+    </div>
+</div>
+
+<div class="row col-sm-6 col-md-4 movie-tile text-center">
+    <h2>Bad Boys II</h2>
+    <figure>
+        <img class="movie-poster" src="http://d12vb6dvkz909q.cloudfront.net/uploads/galleries/39717/bad-boys-ii-poster-artwork-martin-lawrence-will-smith-gabrielle-union.jpg" width="220" height="342">
+    </figure>
+    <div class="rating"></div>
+    <p class="description">    Two loose-cannon narcotics cops investigate the flow of Ecstacy into Florida.</p>
+    <div class="rating-trailer">
+    <a href="#" class="btn btn-primary btn-trailer" data-trailer-youtube-id="ahJcAG8oLiw" data-toggle="modal" data-target="#trailer">Trailer</a>
+    <div class="raty" value="4"></div>
+    </div>
+</div>
+<div class="clearfix visible-sm-block"></div>
+<div class="row col-sm-6 col-md-4 movie-tile text-center">
+    <h2>We Were Soldiers</h2>
+    <figure>
+        <img class="movie-poster" src="http://www.barnabaspiper.com/wp-content/uploads/2014/05/we-were-soldiers-movie-poster-3746.jpg" width="220" height="342">
+    </figure>
+    <div class="rating"></div>
+    <p class="description">    The story of the first major battle of the American phase of the Vietnam War and the soldiers on both sides that fought it.</p>
+    <div class="rating-trailer">
+    <a href="#" class="btn btn-primary btn-trailer" data-trailer-youtube-id="WtdQcvQKllk" data-toggle="modal" data-target="#trailer">Trailer</a>
+    <div class="raty" value="4"></div>
+    </div>
+</div>
+<div class="clearfix visible-md-block"></div>
+<div class="row col-sm-6 col-md-4 movie-tile text-center">
+    <h2>Ratatouille</h2>
+    <figure>
+        <img class="movie-poster" src="http://upload.wikimedia.org/wikipedia/en/5/50/RatatouillePoster.jpg" width="220" height="342">
+    </figure>
+    <div class="rating"></div>
+    <p class="description">    A rat is a chef in Paris</p>
+    <div class="rating-trailer">
+    <a href="#" class="btn btn-primary btn-trailer" data-trailer-youtube-id="FpLaO5ArBpg" data-toggle="modal" data-target="#trailer">Trailer</a>
+    <div class="raty" value="4"></div>
+    </div>
+</div>
+<div class="clearfix visible-sm-block"></div>
+<div class="row col-sm-6 col-md-4 movie-tile text-center">
+    <h2>Midnight in Paris</h2>
+    <figure>
+        <img class="movie-poster" src="http://upload.wikimedia.org/wikipedia/en/9/9f/Midnight_in_Paris_Poster.jpg" width="220" height="342">
+    </figure>
+    <div class="rating"></div>
+    <p class="description">    Going back in time to meet authors</p>
+    <div class="rating-trailer">
+    <a href="#" class="btn btn-primary btn-trailer" data-trailer-youtube-id="-NoGpkSTK8k" data-toggle="modal" data-target="#trailer">Trailer</a>
+    <div class="raty" value="4"></div>
+    </div>
+</div>
+
+<div class="row col-sm-6 col-md-4 movie-tile text-center">
+    <h2>Hunger Games</h2>
+    <figure>
+        <img class="movie-poster" src="http://upload.wikimedia.org/wikipedia/en/4/42/HungerGamesPoster.jpg" width="220" height="342">
+    </figure>
+    <div class="rating"></div>
+    <p class="description">    A really real reality show</p>
+    <div class="rating-trailer">
+    <a href="#" class="btn btn-primary btn-trailer" data-trailer-youtube-id="nvU1MnB_dAc" data-toggle="modal" data-target="#trailer">Trailer</a>
+    <div class="raty" value="4"></div>
+    </div>
+</div>
+<div class="clearfix visible-md-block"></div><div class="clearfix visible-sm-block"></div>
+        </div>
+    </div>
+  </body>
+</html>
