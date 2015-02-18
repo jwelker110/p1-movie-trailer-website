@@ -7,6 +7,7 @@ $(document).ready(function(){
         // reliable way to ensure the video stops playing in IE
         $("#trailer-video-container").empty();
     });
+
     // Start playing the video whenever the trailer modal is opened
     $(document).on('click', '.movie-tile', function (event) {
         var trailerYouTubeId = $(this).attr('data-trailer-youtube-id')
@@ -25,6 +26,7 @@ $(document).ready(function(){
         });
     });
 
+    // Set the 5-star rating for each movie on the page
     var ratys = $(".raty");
 
     $(".raty").raty({score: function(){return $(this).attr('value')}},
