@@ -2,63 +2,75 @@
   "movies": [
     {
       "title": "Bad Boys",
-      "duration": "",
       "description": "Two hip detectives protect a murder witness while investigating a case of stolen heroin.",
       "poster_image": "http://ia.media-imdb.com/images/M/MV5BMTY4NDk1NTU5NF5BMl5BanBnXkFtZTcwMjE2NDU2MQ@@._V1_SX640_SY720_.jpg",
       "youtube_trailer": "https://www.youtube.com/watch?v=6GaPkMqAS44",
-      "rating": 4,
-      "duration": 132,
+      "rating": 3.5,
+      "duration": 118,
       "genre": "Action"
     },
     {
       "title": "Bad Boys II",
-      "duration": "",
       "description": "Two loose-cannon narcotics cops investigate the flow of Ecstacy into Florida.",
       "poster_image": "http://d12vb6dvkz909q.cloudfront.net/uploads/galleries/39717/bad-boys-ii-poster-artwork-martin-lawrence-will-smith-gabrielle-union.jpg",
       "youtube_trailer": "https://www.youtube.com/watch?v=ahJcAG8oLiw",
-      "rating": 4,
-      "duration": 132,
+      "rating": 3.25,
+      "duration": 147,
       "genre": "Action"
     },
     {
       "title": "We Were Soldiers",
-      "duration": "",
       "description": "The story of the first major battle of the American phase of the Vietnam War and the soldiers on both sides that fought it.",
       "poster_image": "http://www.barnabaspiper.com/wp-content/uploads/2014/05/we-were-soldiers-movie-poster-3746.jpg",
       "youtube_trailer": "https://www.youtube.com/watch?v=WtdQcvQKllk",
-      "rating": 4,
-      "duration": 132,
-      "genre": "Action"
+      "rating": 3.5,
+      "duration": 138,
+      "genre": "Drama"
     },
     {
       "title": "Ratatouille",
-      "duration": "",
-      "description": "A rat is a chef in Paris",
+      "description": "A rat who can cook makes an unusual alliance with a young kitchen worker at a famous restaurant.",
       "poster_image": "http://upload.wikimedia.org/wikipedia/en/5/50/RatatouillePoster.jpg",
       "youtube_trailer": "https://www.youtube.com/watch?v=FpLaO5ArBpg",
       "rating": 4,
-      "duration": 132,
+      "duration": 111,
+      "genre": "Comedy"
+    },
+    {
+      "title": "Fast & Furious 6",
+      "description": "Hobbs has Dominic and Brian reassemble their crew to take down a team of mercenaries: Dominic unexpectedly gets convoluted also facing his presumed deceased girlfriend, Letty.",
+      "poster_image": "http://www.planetofmovies.net/wp-content/uploads/2015/01/fast-and-furious-6-poster.jpg",
+      "youtube_trailer": "https://www.youtube.com/watch?v=dKi5XoeTN0k",
+      "rating": 3.6,
+      "duration": 130,
       "genre": "Action"
     },
     {
-      "title": "Midnight in Paris",
-      "duration": "",
-      "description": "Going back in time to meet authors",
-      "poster_image": "http://upload.wikimedia.org/wikipedia/en/9/9f/Midnight_in_Paris_Poster.jpg",
-      "youtube_trailer": "https://www.youtube.com/watch?v=-NoGpkSTK8k",
-      "rating": 4,
-      "duration": 132,
-      "genre": "Action"
+      "title": "Star Wars Episode I: The Phantom Menace",
+      "description": "Two Jedi Knights escape a hostile blockade to find allies and come across a young boy who may bring balance to the Force, but the long dormant Sith resurface to reclaim their old glory.",
+      "poster_image": "http://img2.wikia.nocookie.net/__cb20130822171446/starwars/images/7/75/EPI_TPM_poster.png",
+      "youtube_trailer": "https://www.youtube.com/watch?v=bD7bpG-zDJQ",
+      "rating": 3.3,
+      "duration": 136,
+      "genre": "Adventure"
     },
     {
-      "title": "Hunger Games",
-      "duration": "",
-      "description": "A really real reality show",
-      "poster_image": "http://upload.wikimedia.org/wikipedia/en/4/42/HungerGamesPoster.jpg",
-      "youtube_trailer": "https://www.youtube.com/watch?v=nvU1MnB_dAc",
-      "rating": 4,
-      "duration": 132,
-      "genre": "Action"
+      "title": "Marvel's The Avengers",
+      "description": "Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity.",
+      "poster_image": "http://ifanboy.com/wp-content/uploads/2012/02/newavengersposter.jpg",
+      "youtube_trailer": "https://www.youtube.com/watch?v=eOrNdBpGMv8",
+      "rating": 4.1,
+      "duration": 143,
+      "genre": "Adventure"
+    },
+    {
+      "title": "Thor",
+      "description": "The powerful but arrogant god Thor is cast out of Asgard to live amongst humans in Midgard (Earth), where he soon becomes one of their finest defenders.",
+      "poster_image": "http://vignette2.wikia.nocookie.net/marvelcinematicuniverse/images/5/5a/Thor_Official_Poster.jpg/revision/latest?cb=20121220212004",
+      "youtube_trailer": "https://www.youtube.com/watch?v=JOddp-nlNvQ",
+      "rating": 3.5,
+      "duration": 115,
+      "genre": "Adventure"
     }
     ]
 }
