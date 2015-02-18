@@ -12,10 +12,10 @@ main_page_head = '''
     <title>Movie Hub</title>
 
     <!-- Bootstrap 3 -->
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="lib/jquery.raty.css">
+    <link rel="stylesheet" href="css/style.css">
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
     <script src="lib/jquery.raty.js"></script>
@@ -61,15 +61,17 @@ main_page_content = '''
 
 # A single movie entry html template
 movie_tile_content = '''
-<div class="row col-sm-6 col-md-4 movie-tile text-center">
-    <h2>{movie_title}</h2>
+<div class="row col-xs-12 col-sm-6 col-md-4 movie-tile text-center">
+    <h2>{movie_title}</h2><h6>({genre}) {duration} mins</h6>
     <figure>
         <img class="movie-poster" src="{poster_image_url}" width="220" height="342">
     </figure>
     <div class="rating"></div>
     <p class="description">    {movie_description}</p>
     <div class="rating-trailer">
+
     <a href="#" class="btn btn-primary btn-trailer" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">Trailer</a>
+
     <div class="raty" value="{rating}"></div>
     </div>
 </div>
@@ -92,15 +94,16 @@ def create_movie_tiles_content(movies):
             poster_image_url=movie.poster_image_url,
             trailer_youtube_id=trailer_youtube_id,
             movie_description=movie.description,
-            rating=movie.rating,
+            rating=movie.quality_rating,
             duration=movie.duration,
             genre=movie.genre
         )
+        # Add clear fix for proper alignment of movie tiles
         count += 1
         if count % 3 == 0:
             content += '''<div class="clearfix visible-md-block"></div>'''
         if count % 2 == 0:
-            content += '''<div class="clearfix visible-sm-block"></div>'''
+            content += '''<div class="clearfix visible-sm-block visible-xs-block"></div>'''
 
     return content
 
