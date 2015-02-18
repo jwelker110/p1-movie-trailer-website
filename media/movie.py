@@ -9,7 +9,7 @@ class Movie():
         self.description = movie_description
         self.poster_image_url = poster_image_url
         self.trailer_youtube_url = movie_trailer
-        self.rating = movie_rating
+        self.quality_rating = movie_rating
         self.duration = movie_duration_minutes
         self.genre = movie_genre
 
