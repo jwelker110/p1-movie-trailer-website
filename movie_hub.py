@@ -1,6 +1,9 @@
-import fresh_tomatoes
-from media import movie
 import json
+
+import fresh_tomatoes
+from lib.media import movie
+
+
 
 # reading movie details from json
 movies = json.load(open("movie_list.json"))["movies"]

@@ -1,6 +1,5 @@
 
 $(document).ready(function(){
-    resizeTiles(); // Tiles are the correct height for each row
 
     // Pause the video when the modal is closed
     $(document).on('click', '.hanging-close, .modal-backdrop, .modal', function (event) {
@@ -21,34 +20,49 @@ $(document).ready(function(){
         }));
     });
 
-    // Animate in the movies when the page loads
-    $('.movie-tile').hide().first().show("fast", function showNext() {
-        $(this).next("div").show("fast", showNext);
-    });
+    //Animate in the movies when the page loads
+    //$('.movies').hide().first().show("fast", function showNext() {
+    //    $(this).next("div").show("fast", showNext);
+    //});
 
     // Set the 5-star rating for each movie on the page
     $(".raty").raty({score: function(){return $(this).attr('value')}},
             {target: $(this)});
 
+    var tilesPerRow = 0;
+
     // Resize listener to account for changes in doc size
-    $(window).resize(resizeTiles);
+    $(window).resize(function () {
+        if($(window).width() > 991 && tilesPerRow != 3){
+            tilesPerRow = 3;
+        } else if($(window).width() < 992 && $(window).width() > 639 && tilesPerRow != 2){
+            tilesPerRow = 2;
+        } else {
+            return;
+        }
+        resizeTiles(tilesPerRow); // Tiles are the correct height for each row
+
+    });
+
+    $(window).trigger('resize');
 
 });
 
-function resizeTiles(){
+function resetTileSize(){
+    var tiles = $('.movie-tile');
+    // Resetting height back to default height
+    for(var i = 0; i < tiles.length; i++){
+        $(tiles[i]).css('padding-top', '0');
+    }
+}
+
+function resizeTiles(tilesPerRow){
+    console.log('called');
+    resetTileSize();
     var tiles = $('.movie-tile');
     var index;
     var heightChanged;
-
-    // Setting the number of tiles in a row
-    var tilesPerRow;
-    if($(window).width() > 991){
-        tilesPerRow = 3;
-    } else if($(window).width() < 992 && $(window).width() > 639){
-        tilesPerRow = 2;
-    } else {
-        return; // No need to resize since only one tile per row
-    }
+    var currentHeight;
 
     // Iterate through the tiles in each row and resize according to tallest tile
     for(var i = 0; i < tiles.length; i += tilesPerRow) {
@@ -57,9 +71,12 @@ function resizeTiles(){
         // Getting max height of the tiles in the row
         var maxHeight = $(tiles[i]).outerHeight();
         for (index = i; index < tiles.length && index < i + tilesPerRow; index++) {
-            if ($(tiles[index]).outerHeight() > maxHeight) {
+            currentHeight = $(tiles[index]).outerHeight();
+            if (currentHeight != maxHeight) {
                 heightChanged = true;
-                maxHeight = $(tiles[index]).outerHeight();
+            }
+            if (currentHeight > maxHeight) {
+                maxHeight = currentHeight;
             }
         }
 
@@ -67,7 +84,6 @@ function resizeTiles(){
             // Setting the height of tiles in the row
             for (index = i; index < tiles.length && index < i + tilesPerRow; index++) {
                 $(tiles[index]).css('padding-top', (maxHeight - $(tiles[index]).outerHeight()) + 'px');
-                $(tiles[index]).outerHeight(maxHeight);
             }
         }
     }

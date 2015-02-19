@@ -14,11 +14,11 @@ main_page_head = '''
     <!-- Bootstrap 3 -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="lib/jquery.raty.css">
+    <link rel="stylesheet" href="css/jquery.raty.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
-    <script src="lib/jquery.raty.js"></script>
+    <script src="js/jquery.raty.js"></script>
     <script src="js/script.js"></script>
 </head>
 '''

@@ -737,7 +737,7 @@
     noRatedMsg   : 'Not rated yet!',
     number       : 5,
     numberMax    : 20,
-    path         : 'lib/images/',
+    path         : 'raty/images/',
     precision    : false,
     readOnly     : true,
     round        : { down: 0.25, full: 0.6, up: 0.76 },

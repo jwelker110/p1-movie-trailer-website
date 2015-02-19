@@ -3,7 +3,7 @@
     {
       "title": "Bad Boys",
       "description": "Two hip detectives protect a murder witness while investigating a case of stolen Heroin.",
-      "poster_image": "http://ia.media-imdb.com/images/M/MV5BMTY4NDk1NTU5NF5BMl5BanBnXkFtZTcwMjE2NDU2MQ@@._V1_SX640_SY720_.jpg",
+      "poster_image": "img/bad-boys.jpg",
       "youtube_trailer": "https://www.youtube.com/watch?v=6GaPkMqAS44",
       "rating": 3.5,
       "duration": 118,
@@ -12,7 +12,7 @@
     {
       "title": "Bad Boys II",
       "description": "Two loose-cannon narcotics cops investigate the flow of Ecstacy into Florida.",
-      "poster_image": "http://d12vb6dvkz909q.cloudfront.net/uploads/galleries/39717/bad-boys-ii-poster-artwork-martin-lawrence-will-smith-gabrielle-union.jpg",
+      "poster_image": "img/bad-boys-2.jpg",
       "youtube_trailer": "https://www.youtube.com/watch?v=ahJcAG8oLiw",
       "rating": 3.25,
       "duration": 147,
@@ -21,7 +21,7 @@
     {
       "title": "We Were Soldiers",
       "description": "The story of the first major battle of the American phase of the Vietnam War and the soldiers on both sides that fought it.",
-      "poster_image": "http://www.barnabaspiper.com/wp-content/uploads/2014/05/we-were-soldiers-movie-poster-3746.jpg",
+      "poster_image": "img/we-were-soldiers.jpg",
       "youtube_trailer": "https://www.youtube.com/watch?v=WtdQcvQKllk",
       "rating": 3.5,
       "duration": 138,
@@ -30,7 +30,7 @@
     {
       "title": "Ratatouille",
       "description": "A rat who can cook makes an unusual alliance with a young kitchen worker at a famous restaurant.",
-      "poster_image": "http://upload.wikimedia.org/wikipedia/en/5/50/RatatouillePoster.jpg",
+      "poster_image": "img/ratatouille.jpg",
       "youtube_trailer": "https://www.youtube.com/watch?v=FpLaO5ArBpg",
       "rating": 4,
       "duration": 111,
@@ -39,7 +39,7 @@
     {
       "title": "Fast & Furious 6",
       "description": "Hobbs has Dominic and Brian reassemble their crew to take down a team of mercenaries: Dominic unexpectedly gets convoluted also facing his presumed deceased girlfriend, Letty.",
-      "poster_image": "http://www.planetofmovies.net/wp-content/uploads/2015/01/fast-and-furious-6-poster.jpg",
+      "poster_image": "img/fast-and-furious-6.jpg",
       "youtube_trailer": "https://www.youtube.com/watch?v=dKi5XoeTN0k",
       "rating": 3.6,
       "duration": 130,
@@ -48,7 +48,7 @@
     {
       "title": "Star Wars Episode I: The Phantom Menace",
       "description": "Two Jedi Knights escape a hostile blockade to find allies and come across a young boy who may bring balance to the Force, but the long dormant Sith resurface to reclaim their old glory.",
-      "poster_image": "http://img2.wikia.nocookie.net/__cb20130822171446/starwars/images/7/75/EPI_TPM_poster.png",
+      "poster_image": "img/star-wars-the-phantom-menace.png",
       "youtube_trailer": "https://www.youtube.com/watch?v=bD7bpG-zDJQ",
       "rating": 3.3,
       "duration": 136,
