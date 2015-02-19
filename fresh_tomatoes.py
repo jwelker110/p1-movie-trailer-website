@@ -16,7 +16,7 @@ main_page_head = '''
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="lib/jquery.raty.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
     <script src="lib/jquery.raty.js"></script>
     <script src="js/script.js"></script>
@@ -67,11 +67,9 @@ movie_tile_content = '''
         <img class="movie-poster" src="{poster_image_url}" width="220" height="342">
     </figure>
     <div class="rating"></div>
-    <p class="description">    {movie_description}</p>
+    <p class="description">{movie_description}</p>
     <div class="rating-trailer">
-
     <a href="#" class="btn btn-primary btn-trailer" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">Trailer</a>
-
     <div class="raty" value="{rating}"></div>
     </div>
 </div>
@@ -98,6 +96,7 @@ def create_movie_tiles_content(movies):
             duration=movie.duration,
             genre=movie.genre
         )
+
         # Add clear fix for proper alignment of movie tiles
         count += 1
         if count % 3 == 0:
