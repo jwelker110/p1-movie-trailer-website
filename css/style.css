@@ -126,14 +126,14 @@ body {
 }
 
 
-@media screen and (max-width: 767px) and (min-width: 640px) {
+@media screen and (max-width: 767px) and (min-width: 652px) {
     .movie-tile {
         width: 50%;
     }
 }
 
 
-@media screen and (max-width: 639px) {
+@media screen and (max-width: 651px) {
     .movie-tile {
         max-width: 390px;
         min-width: 319px;
