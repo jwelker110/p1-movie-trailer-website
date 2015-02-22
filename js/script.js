@@ -57,7 +57,6 @@ function resetTileSize(){
 }
 
 function resizeTiles(tilesPerRow){
-    console.log('called');
     resetTileSize();
     var tiles = $('.movie-tile');
     var index;
