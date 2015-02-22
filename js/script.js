@@ -34,13 +34,13 @@ $(document).ready(function(){
 
     // Resize listener to account for changes in doc size
     $(window).resize(function () {
-        if($(window).width() > 1199 && tilesPerRow != 3 && breakpoint != 1200) {
+        if($(window).width() > 1199 && breakpoint != 1200) {
             breakpoint = 1200;
             tilesPerRow = 3;
-        }else if($(window).width() > 991 && $(window).width() < 1200 && tilesPerRow != 3 && breakpoint != 992){
+        }else if($(window).width() > 991 && $(window).width() < 1200 && breakpoint != 992){
             breakpoint = 992;
             tilesPerRow = 3;
-        } else if($(window).width() < 992 && $(window).width() > 639 && tilesPerRow != 2 && breakpoint != 320){
+        } else if($(window).width() < 992 && $(window).width() > 639 && breakpoint != 320){
             breakpoint = 320;
             tilesPerRow = 2;
         } else {
