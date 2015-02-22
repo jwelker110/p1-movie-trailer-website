@@ -33,7 +33,9 @@ $(document).ready(function(){
 
     // Resize listener to account for changes in doc size
     $(window).resize(function () {
-        if($(window).width() > 991 && tilesPerRow != 3){
+        if($(window).width() > 1199 && tilesPerRow != 4) {
+            tilesPerRow = 4;
+        }else if($(window).width() > 991 && $(window).width() < 1200 && tilesPerRow != 3){
             tilesPerRow = 3;
         } else if($(window).width() < 992 && $(window).width() > 639 && tilesPerRow != 2){
             tilesPerRow = 2;
