@@ -30,14 +30,18 @@ $(document).ready(function(){
             {target: $(this)});
 
     var tilesPerRow = 0;
+    var breakpoint = 0;
 
     // Resize listener to account for changes in doc size
     $(window).resize(function () {
-        if($(window).width() > 1199 && tilesPerRow != 4) {
-            tilesPerRow = 4;
-        }else if($(window).width() > 991 && $(window).width() < 1200 && tilesPerRow != 3){
+        if($(window).width() > 1199 && tilesPerRow != 3 && breakpoint != 1200) {
+            breakpoint = 1200;
             tilesPerRow = 3;
-        } else if($(window).width() < 992 && $(window).width() > 639 && tilesPerRow != 2){
+        }else if($(window).width() > 991 && $(window).width() < 1200 && tilesPerRow != 3 && breakpoint != 992){
+            breakpoint = 992;
+            tilesPerRow = 3;
+        } else if($(window).width() < 992 && $(window).width() > 639 && tilesPerRow != 2 && breakpoint != 320){
+            breakpoint = 320;
             tilesPerRow = 2;
         } else {
             return;
