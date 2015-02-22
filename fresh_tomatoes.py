@@ -100,7 +100,7 @@ def create_movie_tiles_content(movies):
         # Add clear fix for proper alignment of movie tiles
         count += 1
         if count % 3 == 0:
-            content += '''<div class="clearfix visible-md-block"></div>'''
+            content += '''<div class="clearfix visible-md-block visible-lg-block"></div>'''
         if count % 2 == 0:
             content += '''<div class="clearfix visible-sm-block visible-xs-block"></div>'''
 
