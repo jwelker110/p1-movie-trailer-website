@@ -36,15 +36,12 @@ $(document).ready(function(){
     $(window).resize(function () {
         if (window.matchMedia("screen and (min-width: 1200px)").matches && breakpoint != 1200) {
             breakpoint = 1200;
-            console.log("min: 1200");
             resizeTiles(3); // Current tiles in the row
         } else if (window.matchMedia("screen and (min-width: 992px) and (max-width: 1199px)").matches && breakpoint != 992) {
             breakpoint = 992;
-            console.log("min: 992 max: 1199");
             resizeTiles(3); // Current tiles in the row
         } else if (window.matchMedia("screen and (min-width: 668px) and (max-width: 991px)").matches && breakpoint != 668) {
             breakpoint = 668;
-            console.log("min: 668 max: 991");
             resizeTiles(2); // Current tiles in the row
         } else {
             return;
@@ -66,7 +63,6 @@ function resetTileSize(){
 }
 
 function resizeTiles(tilesPerRow){
-    console.log("resize called");
     resetTileSize();
     var tiles = $('.movie-tile');
     var index;
