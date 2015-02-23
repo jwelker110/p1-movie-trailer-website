@@ -29,18 +29,24 @@ $(document).ready(function(){
     $(".raty").raty({score: function(){return $(this).attr('value')}},
             {target: $(this)});
 
-    var tilesPerRow = 0;
+    var breakpoint = 0;
 
     // Resize listener to account for changes in doc size
+    // Only called when breakpoints are reached
     $(window).resize(function () {
-        if($(window).width() > 991 && tilesPerRow != 3){
-            tilesPerRow = 3;
-        } else if($(window).width() < 992 && $(window).width() > 639 && tilesPerRow != 2){
-            tilesPerRow = 2;
+        if (window.matchMedia("screen and (min-width: 1200px)").matches && breakpoint != 1200) {
+            breakpoint = 1200;
+            resizeTiles(3); // Current tiles in the row
+        } else if (window.matchMedia("screen and (min-width: 992px) and (max-width: 1199px)").matches && breakpoint != 992) {
+            breakpoint = 992;
+            resizeTiles(3); // Current tiles in the row
+        } else if (window.matchMedia("screen and (min-width: 668px) and (max-width: 991px)").matches && breakpoint != 668) {
+            breakpoint = 668;
+            resizeTiles(2); // Current tiles in the row
         } else {
             return;
         }
-        resizeTiles(tilesPerRow); // Tiles are the correct height for each row
+
 
     });
 

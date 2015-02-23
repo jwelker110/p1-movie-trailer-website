@@ -61,7 +61,7 @@ main_page_content = '''
 
 # A single movie entry html template
 movie_tile_content = '''
-<div class="row col-xs-12 col-sm-6 col-md-4 movie-tile text-center">
+<div class="row col-xs-12 col-sm-6 col-md-4 col-lg-4 movie-tile text-center">
     <h2>{movie_title}</h2><h6>({genre}) {duration} mins</h6>
     <figure>
         <img class="movie-poster" src="{poster_image_url}" width="220" height="342">
