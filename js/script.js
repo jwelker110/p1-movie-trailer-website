@@ -54,6 +54,9 @@ $(document).ready(function(){
 
 });
 
+/*
+ * Removes any added padding-top from movie tiles
+ */
 function resetTileSize(){
     var tiles = $('.movie-tile');
     // Resetting height back to default height
@@ -62,6 +65,10 @@ function resetTileSize(){
     }
 }
 
+/*
+ * Adds padding-top to tiles in each row to align by bottom
+ * of the tiles.
+ */
 function resizeTiles(tilesPerRow){
     resetTileSize();
     var tiles = $('.movie-tile');
@@ -78,7 +85,7 @@ function resizeTiles(tilesPerRow){
         for (index = i; index < tiles.length && index < i + tilesPerRow; index++) {
             currentHeight = $(tiles[index]).outerHeight();
             if (currentHeight != maxHeight) {
-                heightChanged = true;
+                heightChanged = true; // Tiles need resized
             }
             if (currentHeight > maxHeight) {
                 maxHeight = currentHeight;
