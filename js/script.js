@@ -21,7 +21,7 @@ $(document).ready(function(){
     });
 
     //Animate in the movies when the page loads
-    $('.movie-tile').hide().first().show("fa", function showNext() {
+    $('.movie-tile').hide().first().show("fast", function showNext() {
         $(this).next("div").show("fast", showNext);
     });
 
