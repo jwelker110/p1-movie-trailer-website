@@ -21,9 +21,9 @@ $(document).ready(function(){
     });
 
     //Animate in the movies when the page loads
-    //$('.movies').hide().first().show("fast", function showNext() {
-    //    $(this).next("div").show("fast", showNext);
-    //});
+    $('.movies').hide().first().show("fast", function showNext() {
+        $(this).next("div").show("fast", showNext);
+    });
 
     // Set the 5-star rating for each movie on the page
     $(".raty").raty({score: function(){return $(this).attr('value')}},
