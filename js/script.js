@@ -21,9 +21,19 @@ $(document).ready(function(){
     });
 
     //Animate in the movies when the page loads
+<<<<<<< HEAD
     $('.movie-tile').hide().first().show("fa", function showNext() {
         $(this).next("div").show("fast", showNext);
     });
+||||||| merged common ancestors
+    //$('.movies').hide().first().show("fast", function showNext() {
+    //    $(this).next("div").show("fast", showNext);
+    //});
+=======
+    $('.movies').hide().first().show("fast", function showNext() {
+        $(this).next("div").show("fast", showNext);
+    });
+>>>>>>> gh-pages
 
     // Set the 5-star rating for each movie on the page
     $(".raty").raty({score: function(){return $(this).attr('value')}},
