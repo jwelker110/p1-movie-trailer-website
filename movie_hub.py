@@ -4,13 +4,11 @@ import fresh_tomatoes
 from lib.media import movie
 
 
-
-# reading movie details from json
+# Read movie from JSON file
 movies = json.load(open("movie_list.json"))["movies"]
 
 movie_list = []
 
-# iterating through each json object and adding it to the movie list
 for m in movies:
     movie_list.append(movie.Movie(m["title"],
                                   m["description"],
